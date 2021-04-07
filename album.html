@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"> 
+
+  <title>Álbum Genius Events - Criação e Gestão de Eventos</title>
+  <meta name="description" content="Genius Events a melhor forma de criar e gerir seus eventos de maneira prática, rápida e segura. Seja você um organizador de eventos, ou um prestador de serviços o seu o lugar é aqui.">
+  
+  <meta name="keywords" content="Gestão de eventos, Genius Ideas, aplicativo de eventos, Angola eventos, prestação de serviços">
+
+  <meta name="author" content="Genius Ideas">
+
+  <!-- Favicons -->
+  <link href="assets/img/logos/logo_favicon.png" rel="icon">
+  <link href="assets/img/logos/logo_favicon.png" rel="apple-touch-icon">
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="assets/album/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/album/css/noscript.css"/>
+  </noscript>
+
+  <!-- Template Main CSS File -->
+  <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
+  
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <!-- <header id="header">
+        <nav>
+            <ul>
+                <li><a href="#intro">Intro</a></li>
+
+                <li><a href="#beach">June ↓</a>
+                    <ul class="drop-menu">
+                        <li><a href="#beach">Beach</a></li>
+                        <li><a href="#miabday">Mia's Bday</a></li>
+                        <li><a href="#LA">LA</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#sm">July ↓</a>
+                    <ul class="drop-menu">
+                        <li><a href="#sm">Santa Monica</a></li>
+                        <li><a href="#pho">Pho</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#summerend">August ↓</a>
+                    <ul class="drop-menu">
+                        <li><a href="#summerend">End of Summer</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#LMUvisit">September ↓</a>
+                    <ul class="drop-menu">
+                        <li><a href="#LMUvisit">LMU Visit</a></li>
+                        <li><a href="#spicy">Spicy</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#UCIvisit">October ↓</a>
+                    <ul class="drop-menu">
+                        <li><a href="#UCIvisit">UCI Visit</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#LMUvisit2">November ↓</a>
+                    <ul class="drop-menu">
+                        <li><a href="#LMUvisit2">LMU Visit 2</a></li>
+                        <li><a href="#thanksgiving">Thanksgiving</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#mybday">December ↓</a>
+                    <ul class="drop-menu">
+                        <li><a href="#mybday">My Bday</a></li>
+                        <li><a href="#UCIvisit2">UCI Visit 2</a></li>
+                        <li><a href="#wbreak">Winter Break</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#newyear">January ↓</a>
+                    <ul class="drop-menu">
+                        <li><a href="#newyear">New Year</a></li>
+                        <li><a href="#winterend">End of Winter</a></li>
+                        <li><a href="#irvinehang">Irvine Weekend</a></li>
+                        <li><a href="#UCIvisit3">UCI Visit 3</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#outro">Outro</a></li>
+
+            </ul>
+        </nav>
+    </header> -->
+
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex align-items-center">
+    
+          <div class="logo mr-auto">
+            <h1 class="text-light"><a href="https://geniusevents.geniusideas.co.ao/"><span>Genius <img src="assets/img/logos/logo_title_banner.png" alt=""> Events</span></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="https://geniusevents.geniusideas.co.ao/"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          </div>
+    
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li class="active"><a href="https://geniusevents.geniusideas.co.ao/">Início</a></li>
+              <li><a href="#clients">Clientes</a></li>
+              <li><a href="#supplying">Fornecedores</a></li>
+              <li><a href="#gallery">Galeria</a></li>
+              <li><a href="#testimonials">Testemunhos</a></li>
+              <li><a href="#packages">Pacotes</a></li>
+              <li><a href="#FAQ">Perguntas</a></li>
+              <li><a href="#contact">Contactos</a></li>
+            </ul>
+          </nav><!-- .nav-menu -->
+    
+        </div>
+      </header><!-- End Header -->
+    <!-- Intro -->
+    <section id="intro" class="main style1 dark fullscreen">
+        <canvas id="canvas"></canvas>
+        <div class="content">
+            <header>
+                <h1>💡Genius Events Galeria💡</h1>
+            </header>
+
+            <p>
+                A satisfação dos nossos clientes é um dos nossos maiores prazeres, heis aqui uma coletânia com as imagens dos eventos organizados pela nossa plataforma.
+            </p>
+            
+            <section>
+                <p style="font-size: small;"><br>DJ Paul Natz - Título da música</p>
+                <audio controls loop id="song">
+                    <source src="assets/sound/song.mp3" type="audio/mpeg">
+                </audio>
+                <script>
+                    var audio = document.getElementById("song");
+                    audio.volume = 0.2; // no deaf pls
+                </script>
+            </section>
+
+            <footer>
+                <a href="#beach" class="button style2 down"></a>
+            </footer>
+        </div>
+    </section>
+
+
+    <!-- Image sizes: 260 by 500-->
+    <!-- Resize images with: https://www.iloveimg.com/resize-image -->
+
+    <!-- Beach -->
+    <section id="beach" class="main style1 dark">
+        <div class="content">
+            <header>
+                <h2>Lançamento da Genius Events</h2>
+                <h3>Dezembro, 2020</h3>
+            </header>
+
+            <p>Evento de lançamento da Genius Events</p>
+            
+            <div class="gallery">
+                <article class="from-right">
+                    <span class="image grow"><img src="assets/img/album/GeniusEvents/ge (1).jpg"/></span>
+                </article>
+
+                <article class="from-left">
+                    <span class="image rotate-right"><img src="assets/img/album/GeniusEvents/ge (3).jpg"/></span>
+                </article>
+
+                <article class="from-right">
+                    <span class="image rotate-left"><img src="assets/img/album/GeniusEvents/ge (4).jpg"/></span>
+                </article>
+
+                <article class="from-left">
+                    <span class="image grow"><img src="assets/img/album/GeniusEvents/ge (5).jpg"/></span>
+                </article>
+
+                <article class="from-right">
+                    <span class="image grow"><img src="assets/img/album/GeniusEvents/ge (6).jpg"/></span>
+                </article>
+
+                <article class="from-left">
+                    <span class="image rotate-right"><img src="assets/img/album/GeniusEvents/ge (7).jpg"/></span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mia's Bday -->
+    <!-- <section id="miabday" class="main style1 dark">
+        <div class="content">
+            <header>
+                <h2>Your Birthday @ Yes Plaza</h2>
+                <h3>June 17th, 2019</h3>
+            </header>
+
+            <p>Hope you liked your gifts. And stop killing every plant you walk by 😡</p>
+
+            <div class="gallery">
+                <article class="from-right">
+                    <span class="image grow"><img src="images/mia-bday.jpg" /></span>
+                </article>
+
+                <article class="from-left">
+                    <span class="image grow"><img src="images/flower.jpg" /></span>
+                </article>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Outro -->
+    <section id="outro" class="main style1 dark fullscreen">
+        <div class="content">
+            <header>
+                <h1>É tudo por agora!</h1>
+            </header>
+
+            <p> Gostou do que viu?<br>
+                Então não perca tempo e <a href="geniusevents.co.ao">inscreva-se.</a> na nossa plataforma como cliente e tenha a incrível exepriência de organizar o seu evento por via da melhor plataforma de Angola.<br><br> 
+                E você fornecedor, quer que os seus serviços sejam divulgados e requisitados pelos mehlores clientes do país?<br> Então não perca mais tempo e <a href="geniusevents.co.ao">inscreva-se.</a> 
+            </p>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="assets/album/js/jquery.min.js"></script>
+    <script src="assets/album/js/jquery.poptrox.min.js"></script>
+    <script src="assets/album/js/jquery.scrolly.min.js"></script>
+    <script src="assets/album/js/jquery.scrollex.min.js"></script>
+    <script src="assets/album/js/browser.min.js"></script>
+    <script src="assets/album/js/breakpoints.min.js"></script>
+    <script src="assets/album/js/util.js"></script>
+    <script src="assets/album/js/main.js"></script>
+    <script src="assets/album/js/particles.js"></script>
+
+</body>
+
+</html>
